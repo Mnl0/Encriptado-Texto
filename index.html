@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos-generale.css">
+    <title>Encriptado de Texto</title>
+</head>
+
+<body>
+
+    <div class="containers">
+
+        <div class="container-uno">
+            <textarea class="text-area-uno" name="texto-encriptar" id="" cols="30"
+                rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quo mollitia consectetur saepe enim autem qui ab nisi velit debitis amet, sint vel repellat sequi beatae earum voluptatem quos repudiandae!</textarea>
+        </div>
+
+        <div class="container-dos">
+        </div>
+        <textarea class="text-area-dos" name="texto-desencriptar" id="" cols="30" readonly
+            rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, necessitatibus. Perferendis excepturi veniam quia voluptatibus ut asperiores cumque, perspiciatis corrupti accusamus aliquid sed ipsa doloremque quaerat fugit assumenda sapiente labore.</textarea>
+        <button class="boton-copiar" onclick=copiar()>Copiar</button>
+    </div>
+
+    <div class="container-botones">
+        <button type="button" onclick=encriptar() class="boton-encriptar">Encriptar</button>
+        <button type="button" onclick=desencriptar() class="boton-desencriptar">Desencriptar</button>
+    </div>
+
+
+    <footer>
+        <p>Manuel Monjes Sandoval</p>
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>
