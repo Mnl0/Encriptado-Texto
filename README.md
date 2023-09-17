@@ -1,2 +1,2 @@
-#Proyecto de encriptado
-encriptado de texto planteado por desafio alura
+#Proyecto de encriptado y desencriptado simple realizado con js
+
